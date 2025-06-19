@@ -1,0 +1,13 @@
+### GET - all planes
+GET http://localhost:8080/api/planes
+
+### POST - add plane
+POST http://localhost:8080/api/planes
+Content-Type: application/json
+
+{
+  "imma": "1-BWW-114",
+  "ownerName": "Flavian",
+  "typeName": "A380",
+  "numberOfSeats": 33
+}

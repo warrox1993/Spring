@@ -1,0 +1,16 @@
+type Entrepot {
+    id: ID!
+    name: String!
+}
+type Product {
+    id: ID!
+    name: String!
+    description: String
+    price: Float!
+    entrepot: Entrepot!
+}
+
+type Query {
+    findAllProduct: [Product]
+    findOneProduct(id: ID!): Product
+}

@@ -1,0 +1,17 @@
+### POST - user login
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "email": "admin@bstorm.be",
+  "password": "Test1234="
+}
+
+### POST - user register
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "email": "demo@bstorm.be",
+  "password": "Test1234="
+}

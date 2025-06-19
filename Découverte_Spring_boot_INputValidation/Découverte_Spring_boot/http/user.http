@@ -1,0 +1,11 @@
+### PUT - Product update
+POST http://localhost:8080/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Biblop",
+  "isPromote": true
+}
+
+### GET - Product getAll
+GET http://localhost:8080/api/products

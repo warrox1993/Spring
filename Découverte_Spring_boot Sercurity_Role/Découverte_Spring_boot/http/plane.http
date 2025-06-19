@@ -1,0 +1,15 @@
+### GET - all planes
+GET http://localhost:8080/api/planes
+
+### POST - add plane
+POST http://localhost:8080/api/planes
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbIkFETUlOIiwiVVNFUiJdLCJleHAiOjE3NDkwMzk1ODQsImlhdCI6MTc0OTAzOTUyNCwiaXNzIjoiYmUudGVjaG5vZnV0dXJ0aWMuZm9ybWF0aW9uLmphdmEiLCJzdWIiOiJhZG1pbkBic3Rvcm0uYmUifQ.G45WoJrhvYkG0OcMe6j3_PY2TNbjeBJbT0t6QYnczZHq5J6svYVWId3lEMC-59jSzhv0tn0WKmHOHi-YSORYKg
+Content-Type: application/json
+
+{
+  "imma": "1-BWW-114",
+  "ownerName": "Flavian",
+  "typeName": "A380",
+  "type": "CARGO",
+  "numberOfSeats": 4
+}
